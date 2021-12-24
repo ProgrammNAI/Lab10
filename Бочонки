@@ -14,7 +14,7 @@ int main()
     bool check;//переменная для проверки
     setlocale(LC_ALL, "rus");
     ofstream file;
-    file.open("log.txt", ios::app);
+    file.open("С:\\Рабочий стол\\ Пользователи\\Лаба10\\log.txt", ios::app);
     cout << "Введите количество бочонков. N = ";
     cin >> N;
     if (!file.is_open())
